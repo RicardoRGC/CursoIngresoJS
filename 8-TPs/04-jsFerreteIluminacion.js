@@ -10,5 +10,45 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
  */
 function CalcularPrecio () 
 {
- 	
+ 	let cantidad;
+     let lamparas;
+     let descuento;
+     let marca;
+     
+
+
+     lamparas = 35;
+
+     marca = Marca.value;
+     cantidad = txtIdCantidad.value;
+     cantidad = parseInt( cantidad );
+//A. Si compra 6 o más lamparitas bajo consumo tiene un descuento del 50%.
+
+     if (cantidad >= 6)
+     {
+
+        let precio;
+        let porcentaje;
+
+        precio = cantidad*35 ;
+
+        porcentaje = (precio*50)/100;
+
+        txtIdprecioDescuento.value = (porcentaje);
+
+
+     }
+     //B. Si compra 5 lamparitas bajo consumo marca
+        // "ArgentinaLuz" se hace un descuento del 40 % y si es de otra marca el descuento es del 30%.
+    if ( cantidad == 5 && marca == "ArgentinaLuz"){
+
+        precio = cantidad*35;
+
+        txtIdprecioDescuento.value = precio;
+    }
+
+
+
+
+
 }

@@ -5,15 +5,18 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
+	let numeroUno;
+	let numeroDos;
+	let resultado;
 	
-	numero1 = txtIdNumeroUno.value
-	numero1 =parseInt(numero1);
+	numeroUno = txtIdNumeroUno.value;
+	numeroUno =parseInt(numeroUno);
 	
-	numero2 = txtIdNumeroDos.value
-	numero2 = parseInt(numero2);
+	numeroDos = txtIdNumeroDos.value;
+	numeroDos = parseInt(numeroDos);
 	
 	
-	resultado = numero1 + numero2;
+	resultado = numeroUno + numeroDos;
 
 	
 
@@ -22,15 +25,18 @@ function sumar()
 
 function restar()
 {
+	let numeroUno;
+	let numeroDos;
+	let resultado;
+
+	numeroUno = txtIdNumeroUno.value;
+	numeroUno =parseInt(numeroUno);
 	
-	numero1 = txtIdNumeroUno.value
-	numero1 =parseInt(numero1);
-	
-	numero2 = txtIdNumeroDos.value
-	numero2 = parseInt(numero2);
+	numeroDos = txtIdNumeroDos.value;
+	numeroDos = parseInt(numeroDos);
 	
 	
-	resultado = numero1 - numero2;
+	resultado = numeroUno - numeroDos;
 
 	
 
@@ -39,15 +45,18 @@ function restar()
 
 function multiplicar()
 { 
+	let numeroUno;
+	let numeroDos;
+	let resultado;
+
+	numeroUno = txtIdNumeroUno.value;
+	numeroUno =parseInt(numeroUno);
 	
-	numero1 = txtIdNumeroUno.value
-	numero1 =parseInt(numero1);
-	
-	numero2 = txtIdNumeroDos.value
-	numero2 = parseInt(numero2);
+	numeroDos = txtIdNumeroDos.value;
+	numeroDos = parseInt(numeroDos);
 	
 	
-	resultado = numero1 * numero2;
+	resultado = numeroUno * numeroDos;
 
 	
 
@@ -56,15 +65,18 @@ function multiplicar()
 
 function dividir()
 {
+	let numeroUno;
+	let numeroDos;
+	let resultado;
 	
-	numero1 = txtIdNumeroUno.value
-	numero1 =parseInt(numero1);
+	numeroUno = txtIdNumeroUno.value;
+	numeroUno =parseInt(numeroUno);
 	
-	numero2 = txtIdNumeroDos.value
-	numero2 = parseInt(numero2);
+	numeroDos = txtIdNumeroDos.value;
+	numeroDos = parseInt(numeroDos);
 	
 	
-	resultado = numero1 + numero2;
+	resultado = numeroUno + numeroDos;
 
 	
 

@@ -19,4 +19,4 @@ txtIdNombre.value = ("");
 txtIdEdad.value = ("");
 
 }
-
+//nombre = document.getElementById("").value

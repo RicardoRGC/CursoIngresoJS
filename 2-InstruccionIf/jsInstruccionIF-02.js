@@ -4,14 +4,14 @@ function mostrar()
 
 	let edad;
 	edad = txtIdEdad.value;
-	edad = parseInt(edad)
+	edad = parseInt(edad);
 
-	if(edad => 18)
+	if(edad > 17)
 	{
-		alert("mayor de edad")
+		alert("mayor de edad");
 	}
 	else{
-		txtIdEdad.value = ("")
+		txtIdEdad.value = ("");
 	}
 
 

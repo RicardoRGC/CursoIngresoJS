@@ -5,9 +5,9 @@ function mostrar()
 {
 	let nombre;
 
-	//nombre = document.getElementById("txtIdNombre").value
+	nombre = document.getElementById("txtIdNombre").value
 
-	nombre = txtIdNombre.value;
+	//nombre = txtIdNombre.value;
 
 	alert(nombre);
 
