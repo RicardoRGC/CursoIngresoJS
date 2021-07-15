@@ -1,3 +1,8 @@
+/* Gonzalez Ricardo tp-08
+Al ingresar una edad menor a 18 años y un estado civil distinto a "Soltero", NO HACER NADA,
+pero si no es asi, y es soltero y no es menor, mostrar el siguiente mensaje: 'Es soltero y no es menor.'
+
+*/
 function mostrar()
 {
 	//tomo la edad  
@@ -11,30 +16,42 @@ pero si no es asi, y es soltero y no es menor, mostrar el siguiente mensaje: 'Es
 	edad = parseInt(edad);
 	estado = estadoCivil.value;
 
-if (edad <= 17 && estado == "Casado" ) {
+if (edad < 17 && estado == "Casado" ) 
 
 	{
 		txtIdEdad.value = ("");
-	}
-}
-	else if( edad <= 17 && estado == "Divorciado")
-	{
-		
-		txtIdEdad.value = ("");
-	}
-	else if( edad >= 18 && estado == "Soltero"){
-
-		alert("Es soltero y no es menor")
 	}
 
 	else
 	{
+	
+	
+		if( edad < 17 && estado == "Divorciado")
+		  {
+			
+			txtIdEdad.value = ("");
+		   }
+		else 	
 
-		txtIdEdad.value = ("");
+
+		{
 		
+			if( edad > 17 && estado == "Soltero")
+			   {
+
+				alert("Es soltero y no es menor")
+			   }
+
+				else
+				{
+
+					txtIdEdad.value = ("");
+			
+				}
+
+			}
+	
 	}
-	
-	
 
 
 }//FIN DE LA FUNCIÓN
