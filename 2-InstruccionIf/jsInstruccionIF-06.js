@@ -14,7 +14,7 @@ if (edad < 13 )
 		alert (" es menor")
 	}
 
-else 
+else
 {
 
 	if( edad > 17)
